@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100% ;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px
+}
+.row{
+    display:  flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-6 {
+    flex-basis: 15%;
+    min-width: 250px;
+}
+.col-full{
+    flex-basis: 83%;
+    min-width: 350px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.ulAdmin {
+    list-style-type: none;
+    margin-top: 10px;
+}
+.ulAdmin li {
+    font-size: 25px;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.ulAdmin li:hover{
+    background-color: #555;
+}
+.tbAdmin th,td {
+    text-align: left;
+     padding: 8px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+.tbAdmin td{
+    font-size: 20px;
+}
+.tbAdmin{   
+    border: solid;
+    border-width: 1px;
+    width: 90%;
+}
+.tbAdmin th {
+    background: #FE980F;
+}
+.btnSimple{
+    background: #FE980F;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px;
+    margin:10px;
+    min-width: 100px;
+}
+/*
+.myModal{
+    background: #555;
+    min-width: 350px;
+    max-width: 800px;
+    height: 200px;
+    margin: auto;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+} */
+.myModal{
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 30p;
+    border-style: solid;
+    border-width: 1px;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: ghostwhite;
+    display: none;
+}
+.myModal h2{
+    text-align: center;
+}
+.form-control{
+    margin: 5px;
+    display: inline-flex;
+    min-width: 400px;
+}
+.form-control label{
+    font-size: 15px;
+    color: #555;
+    padding: 3px;
+    flex: 1;
+}
+.form-control input{
+    font-size: 15px;
+    padding: 2p;
+    min-width: 300px;
+    padding: 2pox;
+    padding: 2px;
+    border-radius: 10px;
+}
+.form-control select{
+    font-size: 15px;
+    color: #555;
+    padding: 3px;
+    flex: 3;
+    border-radius: 15px;
+}
